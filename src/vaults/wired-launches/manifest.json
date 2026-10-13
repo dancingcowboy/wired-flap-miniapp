@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "mode": "mini-app",
+  "appModel": "standalone",
+  "slug": "wired-launches",
+  "artifactId": "vaultui_wired-launches_01M4RM8FSHJY6JQVPAAYH85PFM",
+  "name": "wired-launches",
+  "displayTitle": {
+    "en": "WIRED Launches",
+    "zh": "WIRED 发射台",
+    "ko": "WIRED 런치"
+  },
+  "match": {
+    "bindings": []
+  },
+  "i18n": [
+    "en",
+    "zh",
+    "ko"
+  ],
+  "endpoints": [
+    "https://wiredup.app/api/uploads/image",
+    "https://wiredup.app/api/uploads/metadata",
+    "https://wiredup.app/api/pairs/flap",
+    "https://wiredup.app/api/miniapp/launches/sponsored"
+  ]
+}
